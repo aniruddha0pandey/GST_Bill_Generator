@@ -151,13 +151,13 @@ main(){
 		
 //selection bucket
 
-		for(i=0;i<40;i++){	if(i==0)	printf("%c",218);	printf("%c",196);	if(i==39)	printf("%c",191);	}
+		for(i=0;i<58;i++){	if(i==0)	printf("%c",218);	printf("%c",196);	if(i==57)	printf("%c",191);	}
 		
-		printf("\n  %c     \tSELECTION BUCKET \t   %c\n",179,179);
+		printf("\n  %c     \t\t SELECTION BUCKET \t\t     %c\n",179,179);
 		
 		printf("  ");
 		
-		for(i=0;i<40;i++){	if(i==0)	printf("%c",192);	printf("%c",196);	if(i==39)	printf("%c",217);	}
+		for(i=0;i<58;i++){	if(i==0)	printf("%c",192);	printf("%c",196);	if(i==57)	printf("%c",217);	}
 		
 		printf("\n  ");
 		
@@ -541,7 +541,7 @@ main(){
 				printf("\t  %c      %c%c%c%cUGST @%.1f%% %c               %c\n",186,192,196,196,196,(gst/3)/2,186,186);
 								
 			}
-	
+			
 			printf("\t  %c  \t\t\t %c   \t\t %c\n",186,186,186);
 			printf("\t  %c  \t\t\t %c   \t\t %c\n",186,186,186);
 			
