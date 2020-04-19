@@ -67,7 +67,7 @@ void menu_open(int i){
 	
 }
 
-end(){
+void end(){
 	
 	printf("\n--------------------------------");
 	printf("\n\t  %cThank You %c",7,1);
@@ -89,7 +89,7 @@ struct{
 
 int count_bill_no=0;
 
-main(){
+int main(){
 	
 	int i;
 
@@ -643,5 +643,6 @@ main(){
 		}
 		
 		end();
+		return 0;
 
 }
